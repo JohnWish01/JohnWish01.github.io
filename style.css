@@ -42,6 +42,12 @@ html {
   font-family: "Protest Revolution", sans-serif;
 }
 
+.key.playing {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
+
 kbd {
   display: block;
   font-size: 4rem;
@@ -72,6 +78,12 @@ footer {
   text-shadow: 2px 2px 4px #fff, -2px -2px 4px #fff, 2px -2px 4px #fff,
     -2px 2px 4px #fff;
 }
+
+footer a {
+  color: #f60a98;
+  text-decoration: none;
+}
+
 footer a:hover {
   color: #ffc600;
   text-decoration: none;
